@@ -2,13 +2,9 @@ $(function(){
 	
 $('button').on('click', function(){
 	
-	var first , second , result ;
+        var first = parseInt($("#first").val());
+	var second = parseInt($("#second").val());
 	
-	first = $("#first").val();
-	second = $("#second").val();
-    
-	first = parseInt(first);
-    second = parseInt(second);	
 	if ($(this).attr('id')=='plus') { 
      result = first + second; 
     }
