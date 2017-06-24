@@ -3,12 +3,16 @@ h1 {
 	color:grey;
 }  
 button{
-	color:blue;
+	color:#0D89DB;
 }
 body{
-	background:green;
+	background:#22DB0D;
+}
+.yelloow{
+	text-align:center;
+	color:yellow;
 }
 p{
 	text-align:center;
-	color:yellow;
+	color:rgba(255,0,0,0.9);
 }
