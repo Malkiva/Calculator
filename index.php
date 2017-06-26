@@ -48,7 +48,7 @@
 ?>
 <br/>
 <?php
-   echo '<input type="number" placeholder="Результат" name="result" value="'.$d.'">';
+   echo '<input type="number" name="result" value="'.$d.'">';
  ?>
 
 </body>
