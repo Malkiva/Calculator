@@ -18,12 +18,12 @@
       <option value="minus">-</option>
       <option value="multiply">*</option>
       <option value="delenie">/</option>
-    </select>
+        </select>
         <input type="number" name="second" placeholder="Введите число" />
         <button name='butt'>Посчитать</button>
         <input type="number" name="result" value="" placeholder="Результат" />
     </form>
-    <?php
+<?php
       if($_POST['butt'])
       {
         $a = (int)$_POST['first'];
