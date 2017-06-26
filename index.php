@@ -20,10 +20,10 @@
       <option value="delenie">/</option>
         </select>
         <input type="number" name="second" placeholder="Введите число" />
-        <button name='butt'>Посчитать</button>
-        <input type="number" name="result" value="" placeholder="Результат" />
+        <input type="submit" name="butt" value="Посчитать" />
     </form>
 <?php
+      //var_dump($_POST);
       if($_POST['butt'])
       {
         $a = (int)$_POST['first'];
@@ -42,10 +42,14 @@
               echo "На ноль делить нельзя";
             else $d = $a / $b;
           }
-          echo '<input type="number" name="result" value="'.$d.'">';
+
       }
 
 ?>
+<br/>
+<?php
+   echo '<input type="number" placeholder="Результат" name="result" value="'.$d.'">';
+ ?>
 
 </body>
 
